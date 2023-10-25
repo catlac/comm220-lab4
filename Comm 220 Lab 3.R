@@ -14,6 +14,11 @@ have_info = n_agents*.5 # how many agents start with the information (=1)
 connectedness = 1 # proportion network that stays connected
 rounds_of_interaction = n_agents*30 # number of pairwise "conversations"
 
+## note for above:
+  #here, my goal was to see if (within this particular model) the "information" would spread at different rates given that 50% of the agents started
+  # with the information 10% influence rate vs. a model that had 10% of agents starting with information with a 50% influence rate (this model is 
+  # can be found below) 
+
 #set.seed(11) # set seed to make code reproducible!
 
 # //////////////////////////////////////////////////////
@@ -52,7 +57,7 @@ plot(rowMeans(history),type='l',ylim=c(0,1),
      xlab='Iteration',ylab='Average state')
 
 
-############
+############ Lab 3 Model 2 ############
 
 # NOTE: this was a comparison lab, so this is the same script as above with different influence_rate and have_info values.
 
