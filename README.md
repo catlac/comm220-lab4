@@ -3,7 +3,7 @@ Here, you will find Labs #1-3 from our Comm 220 Methods course!
 
 The code found in here is from several lab assignments. 
 
-##### Lab Descriptions
+###### Lab Descriptions
 
 Lab #1: The primary goal of this lab was to familizarize ourselves with R. Utilizing a pre-exisitng dataset, we were asked to explore the difference in average title length between two different news sources. 
 
